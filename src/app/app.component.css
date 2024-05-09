@@ -1,0 +1,28 @@
+
+.icon{
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+.actions{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; This is optional and sets the height of the container */
+
+}
+.disabled{
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+    pointer-events: none; /* Disable mouse events */
+    cursor: not-allowed; /* Change cursor to indicate not allowed */
+  }
+
+  .border {
+    border: 2px solid #f5bd06; /* 2px width, solid style, black color */
+  }
+  .update{
+    background-color: rgb(3, 245, 144) !important;
+    /* border-color: auto !important; */
+    border: none;
+    outline: none;
+  }
